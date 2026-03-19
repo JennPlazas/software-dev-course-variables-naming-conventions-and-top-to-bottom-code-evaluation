@@ -30,3 +30,13 @@ let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
+
+
+let customerName = "Alice";
+let numberOfItems = 5;
+let totalCost = 20;
+let pricePerItem = 4;
+let storeName = "Farm Market"
+let purchaseSummary = customerName + "bought" + numberOfItems + "items from" + storeName + "for $" + totalCost + "each costing" + pricePerItem ".";
+
+console(purchaseSummary);
